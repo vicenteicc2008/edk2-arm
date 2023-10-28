@@ -124,9 +124,6 @@
   # Add support for GCC stack protector
   NULL|MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib.inf
 
-  SpmiLib|MSM8909Pkg/Drivers/SpmiDxe/SpmiImplLib.inf
-  Pm8x41Lib|MSM8909Pkg/Drivers/Pm8x41Dxe/Pm8x41ImplLib.inf
-
 [LibraryClasses.common.SEC]
   ArmGicArchLib|ArmPkg/Library/ArmGicArchSecLib/ArmGicArchSecLib.inf
   PcdLib|MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
@@ -186,16 +183,12 @@
   SecurityManagementLib|MdeModulePkg/Library/DxeSecurityManagementLib/DxeSecurityManagementLib.inf
   PerformanceLib|MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib.inf
   MemoryAllocationLib|MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
-  SpmiLib|MSM8909Pkg/Drivers/SpmiDxe/SpmiImplLib.inf
-  Pm8x41Lib|MSM8909Pkg/Drivers/Pm8x41Dxe/Pm8x41ImplLib.inf
 
 [LibraryClasses.common.UEFI_APPLICATION]
   UefiDecompressLib|MdePkg/Library/BaseUefiDecompressLib/BaseUefiTianoCustomDecompressLib.inf
   PerformanceLib|MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib.inf
   MemoryAllocationLib|MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
   HiiLib|MdeModulePkg/Library/UefiHiiLib/UefiHiiLib.inf
-  SpmiLib|MSM8909Pkg/Drivers/SpmiDxe/SpmiImplLib.inf
-  Pm8x41Lib|MSM8909Pkg/Drivers/Pm8x41Dxe/Pm8x41ImplLib.inf
 
 [LibraryClasses.common.UEFI_DRIVER,LibraryClasses.common.UEFI_APPLICATION]
   DxeServicesLib|MdePkg/Library/DxeServicesLib/DxeServicesLib.inf
@@ -209,8 +202,6 @@
   PerformanceLib|MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib.inf
   DxeServicesLib|MdePkg/Library/DxeServicesLib/DxeServicesLib.inf
   MemoryAllocationLib|MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
-  SpmiLib|MSM8909Pkg/Drivers/SpmiDxe/SpmiImplLib.inf
-  Pm8x41Lib|MSM8909Pkg/Drivers/Pm8x41Dxe/Pm8x41ImplLib.inf
 
 [LibraryClasses.common.DXE_RUNTIME_DRIVER]
   HobLib|MdePkg/Library/DxeHobLib/DxeHobLib.inf
